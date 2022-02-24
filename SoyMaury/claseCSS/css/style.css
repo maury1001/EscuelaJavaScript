@@ -1,0 +1,20 @@
+/* Selectores */
+
+/* Elemento html */
+p {
+    color:blue;
+    font-size: 40px;
+}
+
+/* class */
+.parrafo {
+    color: red;
+}
+
+
+/* ID */
+
+#texto {
+    color: yellow;
+    font-size: 24px;
+}
