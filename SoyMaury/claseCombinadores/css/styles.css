@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*se aplica el estilo a la etiqueta que este inmediatamente debajo del primer selector*/
+/* h2 + p {
+    color: red;
+} */
+
+/*se aplica el estilo a las etiquetas que esten debajo del primer selector */
+/* h2 ~ p {
+    color: red;
+} */
+
+/*se aplica el estilo solo a los hijos directos del primer selector*/
+h2 > p {
+    color: blue;
+}
+
+/*se aplica el estilo a todos los descendientes del primer selector*/
+h2  p {
+    color: red;
+}
