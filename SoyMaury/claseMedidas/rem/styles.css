@@ -1,0 +1,20 @@
+/*SIEMPRE EN TODOS LOS ARCHIVOS CSS REINICIAR EL MARGEN Y EL PADDING...Y PONER EL BORDER BOX PARA NO TENER PROBLEMAS CON LOS CONTENEDORES */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*SETEAR ESTA MEDIDA SIEMPRE PARA PODER TRABAJAR CON REM*/
+html {
+    font-size: 62.5%;
+}
+
+
+p {
+    font-size: 1.6rem;   /*1rem = 10 px*/
+}
+
+
+main div {
+    font-size: 1.6rem;
+}
