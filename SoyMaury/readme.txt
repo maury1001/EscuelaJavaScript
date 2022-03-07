@@ -24,3 +24,14 @@ No poner la etiqueta <meta name=”robots” content=”index,follow”> en tu p
 No usar la etiqueta <meta name=”viewpor” content=”width=device-width, initial-scale=1.0”> para hacer tu proyecto responsive.
 No poner el atributo autocomplete=”valor” en los campos de tu formulario para hacerle la vida más fácil al usuario
 No usar el atributo required en los campos obligatorios de tu formulario como una primera capa de seguridad
+
+
+
+En un elemento con display:inline no puedo usar margin ni padding arriba ni abajo, solo derecha e izquierda. Tampoco se puede aplicar width o height.
+
+En un elemento con display:block el contenido del elemento toma el 100% del width, se puede usar margin y padding por todos los lados.
+
+En un elemento con display:inline-block, se puede usar margin y padding por todos lados, así como darle width y height, y el contenido es del mismo tamaño que el elemento.
+
+Etiquetas como p y div vienen por Default con un display:block
+Etiquetas como span viene por Default con un display:inline
