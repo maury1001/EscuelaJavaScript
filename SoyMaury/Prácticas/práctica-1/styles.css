@@ -4,20 +4,39 @@
     padding: 0;
 }
 
+html {
+    font-size: 62.5%;
+}
 
 .main_container {
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   row-gap: 20px;
-   column-gap: 30px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
 }
 
 .main_container-title {
-    border: 2px black solid;
+    font-size: 1.8rem;
+    background-color: red;
+    display: inline-block;
+    position: relative;
+    left: 32%;
+    top: 4.1rem;
+    padding: 2.8rem;
+    border: black solid;
+    border-radius: 2rem;
 }
 
 .main_container-content {
-    border: 2px black solid;
-   
+    font-size: 1.6rem;
+    background-color: gainsboro;
+    display: inline-block;
+    border: 0.2rem black solid;
+    padding: 6rem;
+    line-height: calc(1.7rem + 20%);
+    border-radius: 2.6rem;
 }
+
+
+
