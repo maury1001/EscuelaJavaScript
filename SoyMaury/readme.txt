@@ -35,3 +35,26 @@ En un elemento con display:inline-block, se puede usar margin y padding por todo
 
 Etiquetas como p y div vienen por Default con un display:block
 Etiquetas como span viene por Default con un display:inline
+
+
+
+Mini guía de flexbox:
+
+Propiedades en contenedores padre:
+display:flex;
+flex-direccion: row | column | row-reverse | column-reverse
+flex-wrap: nowrap | wrap | wrap-reverse
+Esta siguiente propiedad es un atajo para escribir el flex-direccion y el flex-wrap en una sola línea de código
+flex-flow: Primero escribes dirección | Luego escribes flex-wrap
+Posicionar horizontal
+justify-content: flex-star | flex-end | center | space-around | space-between
+Posicionar manera vertical
+aling-items: flex-star | flex-end | center | stretch | baseline
+
+aling-content: flex-star | flex-end | center | stretch | space-around | space-between “Aling-conten solo se utiliza varias filas de elementos, pero si es una sola línea usamos aling-items”
+
+Propiedades en elemento hijo
+
+order: ; Esto se utiliza para cambiar el orden de nuestros elementos sin cambiar el orden real semantico y correcto de html. Sencillamente colocando números.
+
+aling-self: aling-items: flex-star | flex-end | center | stretch | baseline “Muy importante, si en el padre del elemento tiene declarado flex-direccion:row; esta propiedad lo acomodara verticalmente. Y si es flex.direccion: column lo ordenara horizontalmente”
